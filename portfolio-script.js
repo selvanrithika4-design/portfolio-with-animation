@@ -235,7 +235,7 @@ window.addEventListener('load', () => {
 import("https://esm.run/@google/generative-ai").then(module => {
     const { GoogleGenerativeAI } = module;
 
-    const API_KEY = "AIzaSyD4GpT2bTL-0Z5syaqoOpYMkuTcaGPMDcM"; 
+    const API_KEY = "AIzaSyDqtVw-ghe5xIC-5JyxdmhmHZ_mYzlH9rE"; 
     const genAI = new GoogleGenerativeAI(API_KEY);
 
     // Add your system prompt here
